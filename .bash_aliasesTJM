@@ -1,0 +1,40 @@
+# ls
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# change directories
+alias ..='cd ..'
+alias cd..='cd ..'
+alias ...='cd ../../..'
+
+# sudo
+alias sudo='sudo'
+alias apt-get='sudo apt-get'
+
+# clear dat screen
+alias c='clear'
+
+# refresh bash
+alias sb='source ~/.bashrc'
+
+alias h='history'
+alias path='echo -e ${PATH//:/\\n}'
+alias now='date +"%T"'
+alias nowtime=now
+alias nowdate='date +"%d-%m-%Y"'
+
+# python
+alias py="python3"
+alias pl="python3 -m pip list --verbose"
+
+# Stop after sending count ECHO_REQUEST packets #
+alias ping='ping -c 5'
+# Do not wait interval 1 second, go fast #
+alias fastping='ping -c 100 -s 2'
+alias pxy='curl -m 10 -l google.de'
+
+alias osv='lsb_release -a'
+
+# start up 10.04
+alias pxy='service --status-all; curl -m 10 -l google.com > /dev/null; echo $?'

@@ -14,6 +14,7 @@ alias apt-get='sudo apt-get'
 
 # clear dat screen
 alias c='clear'
+alias clr='clear'
 
 # refresh bash
 alias sb='source ~/.bashrc'

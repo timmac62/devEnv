@@ -2,3 +2,5 @@
 
 + Common aliases
 + Cheat Sheets
++ Lessons Learned
++ Git usage

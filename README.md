@@ -1,5 +1,8 @@
 # Resouces for Development Environments
 
+![Static Badge](https://img.shields.io/badge/GitHub-blue)
+![Static Badge](https://img.shields.io/badge/bash-blue)
+
 + Common aliases
 + Cheat Sheets
 + Lessons Learned
